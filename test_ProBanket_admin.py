@@ -58,8 +58,8 @@ class TestAdmin_authorization(unittest.TestCase):
         #opts.headless = True  # чтобы тест выполнялся без интерфейса
 
 
-        #C:\\Program Files(x86)\\Jenkins\\tools\\chromedriver\\chromedriver
-        self.driver = webdriver.Chrome('/home/rufina/mint_slave/tools/chromedriver/chromedriver')#, options=opts) # , /usr/local/bin/chromedriver, options=opts  добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
+        
+        self.driver = webdriver.Chrome('C:\\Program Files(x86)\\Jenkins\\tools\\chromedriver\\chromedriver')#, options=opts) # , /usr/local/bin/chromedriver, options=opts  добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
 
 
 
