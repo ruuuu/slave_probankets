@@ -24,7 +24,7 @@ import string
 
 class TestAdmin_authorization(unittest.TestCase):
 
-    @allure.step("admin authorization")
+    @pytest.allure.step("admin authorization")
     def authorization(self, driver): # авторизация
 
         driver.get("https://admin.probanket.technaxis.com/external/login")
