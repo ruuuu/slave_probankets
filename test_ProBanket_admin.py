@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains # lля сколддинга к нужному элементу импортируем класс ActionChains
 import pytest
-import allure
+#import allure
 from selenium.webdriver.chrome.options import  Options
 
 
@@ -24,7 +24,7 @@ import string
 
 class TestAdmin_authorization(unittest.TestCase):
 
-    @pytest.allure.step("admin authorization")
+    #@pytest.allure.step("admin authorization")
     def authorization(self, driver): # авторизация
 
         driver.get("https://admin.probanket.technaxis.com/external/login")
