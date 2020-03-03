@@ -18,7 +18,7 @@ import string
 
 class Admin_filtres_halls(unittest.TestCase):
 
-    @allure.step("admin authorization method")
+    @pytest.allure.step("admin authorization method")
     def authorization(self, driver): # авторизация
 
         driver.get("https://admin.probanket.technaxis.com/external/login")
@@ -45,7 +45,7 @@ class Admin_filtres_halls(unittest.TestCase):
             button_voity.click()
             print("button is visible")
 
-    @allure.step("filter halls method")
+    #@allure.step("filter halls method")
     def filtres_halls(self):
 
         # Вместимость
@@ -157,7 +157,7 @@ class Admin_filtres_halls(unittest.TestCase):
 
          time.sleep(2)
 
-    @allure.step("search halls method")
+    #@allure.step("search halls method")
     def poisk(self):
 
         # поиск по залу
