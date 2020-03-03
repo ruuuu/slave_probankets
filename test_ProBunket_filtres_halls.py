@@ -12,13 +12,13 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains # lля сколддинга к нужному элементу импортируем класс ActionChains
 from selenium.webdriver.chrome.options import  Options
 import pytest
-import allure
+#import allure
 from random import randint
 import string
 
 class Admin_filtres_halls(unittest.TestCase):
 
-    @pytest.allure.step("admin authorization method")
+    #@pytest.allure.step("admin authorization method")
     def authorization(self, driver): # авторизация
 
         driver.get("https://admin.probanket.technaxis.com/external/login")
